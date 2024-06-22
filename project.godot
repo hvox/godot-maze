@@ -13,7 +13,7 @@ config_version=5
 config/name="Maze"
 run/main_scene="res://scenes/maze.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://maze.png"
 
 [rendering]
 
