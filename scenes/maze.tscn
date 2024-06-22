@@ -1,15 +1,13 @@
-[gd_scene load_steps=4 format=3 uid="uid://bilr81c0unhq"]
+[gd_scene load_steps=3 format=3 uid="uid://bilr81c0unhq"]
 
 [ext_resource type="Script" path="res://scenes/maze.gd" id="1_icdex"]
 [ext_resource type="PackedScene" uid="uid://c14n3a2mwirkb" path="res://scenes/player.tscn" id="1_k6pu4"]
-[ext_resource type="PackedScene" uid="uid://bs231dara1svm" path="res://scenes/room.tscn" id="2_t5ge0"]
 
 [node name="Maze" type="Node2D"]
 script = ExtResource("1_icdex")
 
 [node name="Player" parent="." instance=ExtResource("1_k6pu4")]
-position = Vector2(82, -48)
+position = Vector2(693, 398)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
-
-[node name="Room" parent="." instance=ExtResource("2_t5ge0")]
+position_smoothing_enabled = true
